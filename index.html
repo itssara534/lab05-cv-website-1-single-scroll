@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sara Ahmad | Junior Software Developer</title>
+  <meta name="description" content="Portfolio of Sara Ahmad, CS undergraduate skilled in C++, Python, SQL and Web Development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Sara<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#my-cv">My CV</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Sara Ahmad</h1>
+          <h2>Junior Software Developer</h2>
+          <p class="lead">CS undergraduate skilled in C++, Python, SQL and Web Development. Passionate about problem-solving and software engineering.</p>
+          <div class="btn-row">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <img src="image.jpeg" alt="Sara Ahmad profile picture" class="avatar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container narrow reveal">
+        <h3 class="section-title">About Me</h3>
+        <p class="about-text">CS undergraduate skilled in C++, Python, SQL, and Web Development. I have a strong foundation in Data Structures and DBMS, with hands-on experience in building browser extensions and database projects. I love solving problems and turning ideas into clean, working software.</p>
+      </div>
+    </section>
+    
+<!-- MY CV -->
+<section id="my-cv" class="section">
+  <div class="container reveal">
+    <h3 class="section-title">My Resume</h3>
+
+    <div class="card cv-card">
+      <div class="cv-icon">CV</div>
+
+      <h4>Let's Work Together</h4>
+
+      <p class="cv-description">
+        Explore my educational background, technical skills,
+        certifications, and experience. Feel free to review my
+        resume for collaboration, internship, or professional opportunities.
+      </p>
+
+      <div class="cv-buttons">
+        <a href="CV.pdf"
+           target="_blank"
+           rel="noopener"
+           class="btn btn-primary">
+          View My CV ↗
+        </a>
+
+        <a href="CV.pdf"
+           download
+           class="btn btn-ghost">
+          Download CV ↓
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container reveal">
+        <h3 class="section-title">Skills</h3>
+        <div class="grid grid-2">
+          <div class="card">
+            <h4>Programming Languages</h4>
+            <div class="chips"><span>C++</span><span>Python</span><span>SQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          </div>
+          <div class="card">
+            <h4>Core CS Concepts</h4>
+            <div class="chips"><span>DSA</span><span>DBMS</span><span>Operating Systems</span><span>OOP</span></div>
+          </div>
+          <div class="card">
+            <h4>Tools &amp; Technologies</h4>
+            <div class="chips"><span>SQL / SQL*</span><span>Google Colab</span><span>Ubuntu / Linux</span><span>Git &amp; GitHub</span><span>MS Office Suite</span></div>
+          </div>
+          <div class="card">
+            <h4>Soft Skills</h4>
+            <div class="chips"><span>Problem-Solving</span><span>Algorithmic Thinking</span><span>Technical Documentation</span><span>Team Collaboration</span><span>Presentations</span></div>
+          </div>
+        </div>
+        <div class="card lang-card">
+          <h4>Languages</h4>
+          <div class="chips"><span>English</span><span>Urdu</span><span>Arabic</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container narrow reveal">
+        <h3 class="section-title">Education</h3>
+        <div class="timeline">
+          <div class="t-item">
+            <span class="t-date">2024 - 2028</span>
+            <h4>Bachelors in Computer Science</h4>
+            <p>Qarshi University, Lahore</p>
+          </div>
+          <div class="t-item">
+            <span class="t-date">2022 - 2024</span>
+            <h4>Intermediate with Biology (FSc Pre-Medical)</h4>
+            <p>Kips College</p>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+<!-- CERTIFICATES -->
+<section id="certificates" class="section alt">
+  <div class="container reveal">
+    <h3 class="section-title">Certifications &amp; Achievements</h3>
+
+    <p class="certificates-intro">
+      Exploring Artificial Intelligence through responsible AI practices,
+      foundational concepts, and effective prompting techniques.
+    </p>
+
+    <div class="grid grid-3 certificates-grid">
+
+      <article class="card certificate-card">
+        <div class="certificate-icon">01</div>
+        <h4>Use of AI Responsibly</h4>
+        <p class="certificate-issuer">Certificate</p>
+        <p class="certificate-description">
+          Understanding responsible and thoughtful use of AI.
+        </p>
+        <a href="certificates/Use of AI Responsibly.pdf"
+           target="_blank" rel="noopener"
+           class="btn btn-ghost certificate-btn">
+          View Certificate ↗
+        </a>
+      </article>
+
+      <article class="card certificate-card">
+        <div class="certificate-icon">02</div>
+        <h4>Google AI Essentials</h4>
+        <p class="certificate-issuer">Google</p>
+        <p class="certificate-description">
+          Building foundational knowledge of AI and its practical applications.
+        </p>
+        <a href="certificates/Google AI Essentials.pdf"
+           target="_blank" rel="noopener"
+           class="btn btn-ghost certificate-btn">
+          View Certificate ↗
+        </a>
+      </article>
+
+      <article class="card certificate-card">
+        <div class="certificate-icon">03</div>
+        <h4>Intro to AI course-era</h4>
+        <p class="certificate-issuer">Course Era</p>
+        <p class="certificate-description">
+          Exploring introductory concepts of artificial intelligence.
+        </p>
+        <a href="certificates/Intro to AI course-era.pdf"
+           target="_blank" rel="noopener"
+           class="btn btn-ghost certificate-btn">
+          View Certificate ↗
+        </a>
+      </article>
+
+      <article class="card certificate-card">
+        <div class="certificate-icon">04</div>
+        <h4>AI Fundamentals Certification</h4>
+        <p class="certificate-issuer">Certificate</p>
+        <p class="certificate-description">
+          Developing a foundation in artificial intelligence concepts.
+        </p>
+        <a href="certificates/AI Fundamentals Certification.pdf"
+           target="_blank" rel="noopener"
+           class="btn btn-ghost certificate-btn">
+          View Certificate ↗
+        </a>
+      </article>
+
+      <article class="card certificate-card">
+        <div class="certificate-icon">05</div>
+        <h4>Discover the art of prompting</h4>
+        <p class="certificate-issuer">Certificate</p>
+        <p class="certificate-description">
+          Exploring techniques for writing effective AI prompts.
+        </p>
+        <a href="certificates/Discover the art of prompting.pdf"
+           target="_blank" rel="noopener"
+           class="btn btn-ghost certificate-btn">
+          View Certificate ↗
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container reveal">
+        <h3 class="section-title">Projects &amp; Experience</h3>
+        <div class="grid grid-3">
+          <article class="card project">
+            <h4>Zen Glitch</h4>
+            <p class="sub">Anti-Procrastination Screen Overlay (Chrome Extension)</p>
+            <p>Designed and built a customizable work-break timer Chrome extension with interactive UI/UX, ambient sound integration and dynamic screen-locking overlay scripts.</p>
+            <div class="chips small"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="card project">
+            <h4>Database System &amp; SQL Querying Module</h4>
+            <p class="sub">Relational database design</p>
+            <p>Modeled relational schemas, designed ER diagrams, wrote complex SQL queries for extraction and joins, and applied normalization to remove redundant data.</p>
+            <div class="chips small"><span>SQL</span><span>DBMS</span></div>
+          </article>
+          <article class="card project">
+            <h4>Data Structures &amp; Algorithms</h4>
+            <p class="sub">Coursework implementations</p>
+            <p>Developed custom data structures including Huffman Tree encoding/decoding, sorting algorithms and tree traversals, optimizing time and space complexity.</p>
+            <div class="chips small"><span>C++</span><span>Python</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container narrow reveal">
+        <h3 class="section-title">Contact</h3>
+        <div class="card contact-card">
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:itssara198@gmail.com">itssara198@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+92 1234567892">+92 123-4567-058</a></li>
+            <li><strong>Location:</strong> Bahria Town, Lahore, Pakistan</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sara-ahmad-3b82b2364" target="_blank" rel="noopener">sara-ahmad-3b82b2364</a></li>
+          </ul>
+          <a href="mailto:itssara198@gmail.com" class="btn btn-primary">Say Hello</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Sara Ahmad. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
